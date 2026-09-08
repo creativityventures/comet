@@ -1,3 +1,7 @@
+## Parcours francais
+
+Ce depot contient un parcours pedagogique en francais dans docs/fr/ : lecture commentee du code de Compound v3 (Comet), un mecanisme par chapitre, sans aucune installation ni execution du projet.
+
 # Compound Comet
 
 ## Getting started
