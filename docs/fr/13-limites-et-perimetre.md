@@ -1,0 +1,7 @@
+# Chapitre 13 — Limites connues et perimetre de ce parcours
+
+Le depot Compound v3 est publie sous licence **Business Source License 1.1** (BUSL-1.1), et non une licence open source permissive classique. Le fichier `LICENSE` precise une date de conversion ("Change Date") fixee au 31 decembre 2025 : a la date d'ecriture de ce parcours (2026), cette date est deja passee, ce qui signifie que le code est repasse sous licence **GNU General Public License v2.0 or later**, comme prevu explicitement par les termes memes du fichier `LICENSE`. Ce parcours documente le code tel qu'il existe dans le depot, sans avis juridique sur la portee exacte de cette transition.
+
+Ce parcours ne couvre pas en detail les dossiers `bridges/` (deploiement cross-chain), `bulkers/` (agregation de plusieurs actions Comet en une seule transaction), `liquidator/` (bot de liquidation de reference qui appelle `absorb` puis `buyCollateral`), `capo/` (verification de plafond de prix pour certains flux de prix) ni `marketupdates/`. Le detail complet du systeme de gouvernance on-chain (Comptroller/Governor herite de Compound v2) est egalement hors perimetre : seule la mecanique interne d'un marche Comet est traitee ici.
+
+Rien n'a ete installe, compile, deploye ni execute pour ecrire ces chapitres. Aucun test n'a ete lance ; ces chapitres decrivent ce que le code Solidity dit faire, en renvoyant aux fichiers cites. Le depot fournit sa propre suite de tests (dossier `test/`) pour verification independante.
